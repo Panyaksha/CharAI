@@ -1,2 +1,2 @@
 ﻿# expressjscrud
- Contoh Rest API CRUD ExpressJS menggunakan method Get, POST, PUT, dan DELETE
+ Contoh Rest API CRUD ExpressJS menggunakan method GET, POST, PUT, dan DELETE
