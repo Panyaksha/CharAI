@@ -8,7 +8,7 @@ const ChatHeader = () => (
       className="h-32 mb-3"
     />
     <p className="text-3xl font-thin text-white">Unofficial</p>
-    <p className="text-xl font-thin text-white/75">Develop by <b><u><a href="https://github.com/yogawan/jawirai">JawirLabs</a></u></b></p>
+    <p className="text-xl font-thin text-white/75">Develop by <i><u><a href="https://github.com/jawirlabs/CharAI">JawirLabs</a></u></i></p>
   </div>
 );
 
