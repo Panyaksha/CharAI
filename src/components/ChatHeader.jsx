@@ -3,12 +3,12 @@ import ProtectedImage from "@/components/ProtectedImage";
 const ChatHeader = () => (
   <div className="pl-5 pr-5 pb-5 bg-none">
     <ProtectedImage
-      src="/brand/logo.png"
+      src="/brand/jkt48.png"
       alt="logo"
-      className="h-16 mb-3"
+      className="h-32 mb-3"
     />
-    <p className="text-3xl font-thin text-white">ꦗꦮꦶꦫꦆꦌ (JawirAI)</p>
-    <p className="text-xl font-thin text-white/75"><u><a href="https://github.com/yogawan/jawiraiv1.6.3">Open Source</a></u> <i className="text-white">User Interface</i> to interact with AI Model</p>
+    <p className="text-3xl font-thin text-white">Unofficial</p>
+    <p className="text-xl font-thin text-white/75">Develop by <b><u><a href="https://github.com/yogawan/jawirai">JawirLabs</a></u></b></p>
   </div>
 );
 

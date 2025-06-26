@@ -4,8 +4,9 @@ import ChatHeader from "@/components/ChatHeader";
 import ChatForm from "@/components/ChatForm";
 import ChatHistory from "@/components/ChatHistory";
 import ChatFloating from "@/components/ChatFloating";
-import Navbar from "@/components/Navbar";
+import ChatAppBar from "@/components/ChatAppBar";
 import Head from "next/head";
+import DevPopup from "@/components/DevPopup";
 
 const ChatAI = () => {
   const [input, setInput] = useState("");
@@ -67,11 +68,12 @@ const ChatAI = () => {
   return (
     <div className="bg-[url('/assets/red.png')] bg-cover bg-center flex justify-center pt-32">
       <Head>
-        <title>JawirAI</title>
+        <title>CharAI</title>
       </Head>
       <div className="w-full sm:w-[720px]">
         <div className="flex flex-col min-h-screen">
-          <Navbar />
+          <ChatAppBar />
+          <DevPopup />
           {!hasHistory && (
             <div>
               <ChatHeader />
